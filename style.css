@@ -30,14 +30,23 @@ header{
     text-align: center;
 }
 
-h1,p,h2{
+h1,h2{
     color: #f8f8f2;
+    margin: 30px 0;
 }
+p{
+    color:  #f8f8f2;
+}
+h3{
+    color:	#50fa7b;
+}
+
 .about{
     margin-right: 50px;
     margin-left:50px;
 }
 .grid-projects{
+    margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-template-rows: repeat(14,1vw);
@@ -114,4 +123,23 @@ img{
 .img-elem{
     margin-top: 10px;
     height: 75%;
+}
+.education{
+    width: 50%;
+}
+.quote{
+    padding-left: 10px;
+    border-left: solid;
+    border-left-color: #bd93f9;
+}
+.contacts{
+    height: 50px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(1,1vw);
+    grid-gap: 1rem 35px;
+}
+.github-icon{
+    grid-area: 1/1/2/2;
 }
